@@ -56,12 +56,11 @@ A file or file object can be assigned a file name like key, and made available u
 
 The SEOS (SysEleven-Object-Storage / S3) is available in every region. The storage systems run independent from each other.
 
- Region | URL                        | Transfer Encryption 
- ------ | -------------------------- | ------------------- 
- CBK    | s3.cbk.cloud.syseleven.net | Yes                 
- DBL    | s3.dbl.cloud.syseleven.net | Yes                 
- FES    | s3.fes.cloud.syseleven.net | Yes                 
-
+Region   | URL                         | Transfer Encryption |
+---------|-----------------------------|---------------------|
+CBK      | s3.cbk.cloud.syseleven.net  | Yes                 |
+DBL      | s3.dbl.cloud.syseleven.net  | Yes                 |
+FES      | s3.fes.cloud.syseleven.net  | Yes                 |
 
 !!!! **Deprecated URL**
 !!!! For historical reasons 's3.cloud.syseleven.net' redirects to 's3.cbk.cloud.syseleven.net'.
